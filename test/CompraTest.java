@@ -45,8 +45,7 @@ public class CompraTest {
         Compra carrito3 = new Compra();
         carrito3.realizarCompra();
         carrito3.realizarCompra();
-        carrito3.realizarCompra();
-        int expResult = 3;
+        int expResult = 2;
         int result = carrito3.getSudaderas();
         assertEquals(expResult, result);
     }
